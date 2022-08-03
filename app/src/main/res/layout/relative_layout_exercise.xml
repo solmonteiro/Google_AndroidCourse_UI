@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_ben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Ben"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tv_ben"
+        android:text="Kunal"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_ben"
+        android:text="Kagure"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/tv_Lyla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:text="Lyla"
+        android:textSize="32dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_Lyla"
+        android:text="Natalie"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/tv_Lyla"
+        android:text="Me"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/tv_Jennie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Jennie"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/tv_omuju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_above="@+id/tv_Jennie"
+        android:layout_alignParentRight="true"
+        android:text="Omuju"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_omuju"
+        android:layout_alignParentRight="true"
+        android:text="Amy"
+        android:textSize="32dp" />
+
+
+</RelativeLayout>
